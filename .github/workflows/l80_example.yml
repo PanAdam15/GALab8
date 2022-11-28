@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: panadam15/lab8:lab8a
+          images: panadam15/lab8:latest
 
       - name: Build and push Docker image
         id: docker_build
